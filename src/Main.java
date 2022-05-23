@@ -25,6 +25,11 @@ public class Main {
                 continue;
             }
         }
+        int f = 5;
+        while (f <= 31) {
+            System.out.println("Сегодня пятница, " + f + "-ое число");
+            f = f + 7;
+        }
     }
 
     public static void task3() {
